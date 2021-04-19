@@ -10,7 +10,7 @@ Para rodar basta baixar o projeto em sua maquina e seguir as etapaas abaixo
 
 
 
-#Libs utilizadas
+# Libs utilizadas
 
 @react-native-async-storage/async-storage: ^1.15.2
 @react-native-community/geolocation: ^2.0.2
@@ -28,7 +28,6 @@ styled-components: ^5.2.3
 
 
 # Algumas Imagens Do Projeto
-
 
 
 
