@@ -29,6 +29,6 @@ styled-components: ^5.2.3
 
 # Algumas Imagens Do Projeto
 
-![alt text](https://github.com/RonanCostaTavares/ClimaTempo/blob/main/PrintApp1.png?raw=true)
+https://github.com/RonanCostaTavares/ClimaTempo/issues/2#issue-861452168
 
 
