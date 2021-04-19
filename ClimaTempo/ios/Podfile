@@ -12,6 +12,12 @@ target 'ClimaTempo' do
     :hermes_enabled => false
   )
 
+  pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
+
+  pod 'RNSVG', :path => '../node_modules/react-native-svg'
+
+  pod 'RNCAsyncStorage', :path => '../node_modules/@react-native-async-storage/async-storage'
+
   target 'ClimaTempoTests' do
     inherit! :complete
     # Pods for testing
