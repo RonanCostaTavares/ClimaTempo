@@ -29,6 +29,14 @@ styled-components: ^5.2.3
 
 # Algumas Imagens Do Projeto
 
-https://github.com/RonanCostaTavares/ClimaTempo/issues/2#issue-861452168
+![PrintApp1](https://user-images.githubusercontent.com/28812767/115264765-f9597100-a10c-11eb-99a9-8e983dde1d2e.PNG)
+
+![PrintApp3](https://user-images.githubusercontent.com/28812767/115264932-2443c500-a10d-11eb-9b6a-df70acf00182.PNG)
+
+![PrintApp4](https://user-images.githubusercontent.com/28812767/115264982-2d349680-a10d-11eb-87d2-6cec4668209c.PNG)
+
+![PrintApp2](https://user-images.githubusercontent.com/28812767/115265030-37569500-a10d-11eb-876a-6f385a83d440.PNG)
+
+
 
 
