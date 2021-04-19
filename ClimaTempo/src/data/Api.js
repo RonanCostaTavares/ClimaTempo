@@ -5,8 +5,8 @@ const API_KEY = '0c939c0d9ec9951b585257b4a31ce585';
 
 export default {
 
+    // Chamada para retornar o clima de acordo com a latitude e longitude
     getClimaByLocation: async (lat, long) => {
-        console.log(`${BASE_API}lat=${lat}&lon=${long}&appid=${API_KEY}`);
         
         const req = await fetch(`${BASE_API}lat=${lat}&lon=${long}&units=metric&appid=${API_KEY}`, {
             method: 'GET',
@@ -21,8 +21,9 @@ export default {
 
     },
 
+    /*Chamada para retornar o clima de acordo com o código postal, porém com está api podemos 
+    apenas utilizar do USA , não encontrei doc para BR*/
     getClimaByZip: async (zipCode) => {
-        console.log(`${BASE_API}zip=${zipCode},br&appid=${API_KEY}`);
         
         const req = await fetch(`${BASE_API}zip=${zipCode},us&units=metric&appid=${API_KEY}`, {
             method: 'GET',

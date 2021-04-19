@@ -5,7 +5,7 @@ const ClimaView = styled.View`
 
     marginTop: 50px;
     width: 85%;
-    height: 200px;
+    height: 250px;
     alignItems: center;
     borderWidth: 2px;
     borderColor:  #FFF;
@@ -26,6 +26,24 @@ const TitleClimaView = styled.View`
 
 const TitleText = styled.Text`
     fontSize: 25px; 
+    fontWeight: bold;
+    color: #000;
+    justifyContent: center; 
+    alignItems: center;
+`;
+
+const EnderecoClimaView = styled.View`
+
+    justifyContent:center; 
+    marginTop: 10px;
+    width: 100%;
+    height: 50px;
+    flexDirection: row;
+
+`;
+
+const EnderecoText = styled.Text`
+    fontSize: 20px; 
     fontWeight: bold;
     color: #000;
     justifyContent: center; 
@@ -68,7 +86,7 @@ const TemperaturaText = styled.Text`
     color: #000;
 `;
 
-export default ({date, time, temp, img}) => {
+export default ({date, time, temp, img ,endereco}) => {
 
 
     const [imgClima, setImageClima] = useState(require('../assets/Sun.png'));
@@ -115,6 +133,11 @@ export default ({date, time, temp, img}) => {
                     <TitleText >{time}</TitleText>
 
                 </TitleClimaView>
+
+                <EnderecoClimaView>
+                    <EnderecoText>{endereco}</EnderecoText>
+
+                </EnderecoClimaView>
                 <BodyClimaView>
 
                     <BodyClimaLefttView>

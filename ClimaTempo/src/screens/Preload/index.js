@@ -14,6 +14,8 @@ export default () => {
 
     const navigation = useNavigation();
 
+    /* Função para pedir a pemissão de compartilhamento de localização e
+    seta um tempo para aparece uma launch Screen */
     const handleLocationFinder =  async () => {
         
 
